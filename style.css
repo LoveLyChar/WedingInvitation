@@ -131,7 +131,7 @@ header h2 {
 	text-align: center;
 }
 .banner-area .banner-img {
-	background-image: url(Resource/TOM_1578.JPEG);
+	background-image: url(Resources/TOM_1578.JPEG);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -186,14 +186,14 @@ ul.couple-content {
 }
 .couple-left{
 	flex-basis: 25%;
-	background-image: url(Resource/TOM_0764.JPEG);
+	background-image: url(Resources/TOM_0764.JPEG);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
 .couple-right2{
 	flex-basis: 25%;
-	background-image: url(Resource/TOM_0012.JPEG);
+	background-image: url(Resources/TOM_0012.JPEG);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -261,7 +261,7 @@ ul.couple-content {
 .story-image-1 {
 	height: 100%;
 	width: 100%;
-	background-image: url(Resource/Wife.JPEG);
+	background-image: url(Resources/Wife.JPEG);
 	background-size: contain;
 	background-repeat: no-repeat;	
 	background-position: right;
@@ -270,7 +270,7 @@ ul.couple-content {
 .story-image-2 {
 	width: 100%;
 	height: 100%;
-	background-image: url(Resource/Husband.JPEG);	
+	background-image: url(Resources/Husband.JPEG);	
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: left;	
@@ -279,7 +279,7 @@ ul.couple-content {
 .story-image-3 {
 	width: 100%;
 	height: 100%;
-	background-image: url(Resource/story-3.JPEG);	
+	background-image: url(Resources/story-3.JPEG);	
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: right;	
@@ -288,7 +288,7 @@ ul.couple-content {
 .story-image-4 {
 	width: 100%;
 	height: 100%;
-	background-image: url(Resource/story-4.JPEG);	
+	background-image: url(Resources/story-4.JPEG);	
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: left;	
@@ -345,7 +345,7 @@ ul.couple-content {
 .story-spacer {
 	width: 100%;
 	height: 100px;
-	background-image: url(Resource/Hearth.PNG);
+	background-image: url(Resources/Hearth.PNG);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;	
@@ -392,56 +392,56 @@ ul.couple-content {
 }
 
 .story-image-r1 {
-	background-image: url(Resource/R1-1.JPEG);
+	background-image: url(Resources/R1-1.JPEG);
 }
 .story-image-r2 {	
-	background-image: url(Resource/R1-2.JPEG);
+	background-image: url(Resources/R1-2.JPEG);
 	transform: translateX(-50%);
 	transition-delay: 100ms;
 }
 .story-image-r3 {
-	background-image: url(Resource/R1-3.JPEG);
+	background-image: url(Resources/R1-3.JPEG);
 	transform: translateX(-50%);
 	transition-delay: 200ms;
 }
 .story-image-r4 {
-	background-image: url(Resource/R1-4.JPEG);
+	background-image: url(Resources/R1-4.JPEG);
 	transform: translateX(-50%);
 	transition-delay: 300ms;
 }
 .story-image-r5 {
-	background-image: url(Resource/R2-1.JPEG);	
+	background-image: url(Resources/R2-1.JPEG);	
 }
 .story-image-r6 {
-	background-image: url(Resource/R2-2.JPEG);
+	background-image: url(Resources/R2-2.JPEG);
 	transform: translateX(-50%);
 	transition-delay: 100ms;
 }
 .story-image-r7 {
-	background-image: url(Resource/R3-1.JPEG);
+	background-image: url(Resources/R3-1.JPEG);
 	transform: translateX(50%);
 	transition-delay: 300ms;
 }
 .story-image-r8 {	
-	background-image: url(Resource/R3-2.JPEG);
+	background-image: url(Resources/R3-2.JPEG);
 	transform: translateX(50%);
 	transition-delay: 200ms;	
 }
 .story-image-r9 {
-	background-image: url(Resource/R3-3.JPEG);
+	background-image: url(Resources/R3-3.JPEG);
 	transform: translateX(50%);
 	transition-delay: 100ms;	
 }
 .story-image-r10 {
-	background-image: url(Resource/R3-4.JPEG);	
+	background-image: url(Resources/R3-4.JPEG);	
 }
 .story-image-r11 {
-	background-image: url(Resource/R4-1.JPEG);	
+	background-image: url(Resources/R4-1.JPEG);	
 	transform: translateX(50%);
 	transition-delay: 100ms;
 }
 .story-image-r12 {
-	background-image: url(Resource/R4-2.JPEG);	
+	background-image: url(Resources/R4-2.JPEG);	
 }
 
 .story-content-p {
@@ -537,7 +537,7 @@ ul.couple-content {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-clip: content-box;
-	background-image: url(Resource/QR_1.PNG);
+	background-image: url(Resources/QR_1.PNG);
 }
 
 .thankyou-QR-bg-2 {
@@ -547,7 +547,7 @@ ul.couple-content {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-clip: content-box;
-	background-image: url(Resource/QR_2.PNG);
+	background-image: url(Resources/QR_2.PNG);
 }
 
 .thankyou-QR-bg-decor {
@@ -557,7 +557,7 @@ ul.couple-content {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-clip: content-box;
-	background-image: url(Resource/Pine.PNG);
+	background-image: url(Resources/Pine.PNG);
 }
 
 /*--------------------------------contact area-----------------------------------------------*/
