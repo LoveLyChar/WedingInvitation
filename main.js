@@ -31,3 +31,16 @@ const imageInLeft = document.querySelectorAll('.story-image-l');
 imageInLeft.forEach((el)=> {
     observer.observe(el);
 });
+
+const mqList = window.matchMedia("(max-width: 1000px)")
+// If media query matches on load
+if (mqList.matches) {
+   document.querySelector('.alter-aos').setAttribute('data-aos', 'flip-down'); 
+   
+}
+// If media query matches after resize
+mqList.addListener(function(mql) {
+    if (mql.matches) {
+       document.querySelector('.alter-aos').setAttribute('data-aos-delay','flip-down')
+    }
+})

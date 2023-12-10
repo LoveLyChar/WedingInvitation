@@ -536,12 +536,12 @@ ul.couple-content {
 	}
 
 	.story-image-r5 {		
-		transform: translateX(-10%);		
+		transform: translateX(-0%);		
 		transition-delay: 100ms;
 	}
 	
 	.story-image-r6 {		
-		transform: translateX(-10%);		
+		transform: translateX(-0%);		
 		transition-delay: 100ms;
 	}
 
@@ -563,11 +563,11 @@ ul.couple-content {
 	}
 
 	.story-image-r11 {		
-		transform: translateX(10%);
+		transform: translateX(0%);
 		transition-delay: 100ms;
 	}
 	.story-image-r12 {		
-		transform: translateX(10%);
+		transform: translateX(0%);
 		transition-delay: 100ms;
 	}
 }
