@@ -24,13 +24,17 @@ section {
 	padding: 100px 100px;
 }
 .logo {
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Oswald', cursive;
 	text-transform: none;
 	font-size: 3vw;
 }
 @media (max-width: 1000px) {
 	section {
 		padding: 50px 50px;
+	}
+
+	.logo {	
+	font-size: 5vw;
 	}
 }
 @media (max-width: 600px) {
@@ -143,7 +147,7 @@ header h2 {
 }
 .banner-area h1 {
 	height: 90px;
-	padding-top: 6.5%;
+	padding-top: 5%;
 	font-size: 7vw;
 	font-family: 'Dancing Script', cursive;
 }
@@ -428,6 +432,7 @@ ul.couple-content {
 	transform: translateX(-50%);
 	transition-delay: 300ms;
 }
+
 .story-image-r5 {
 	background-image: url(Resources/R2-1.JPEG);	
 }
@@ -436,6 +441,7 @@ ul.couple-content {
 	transform: translateX(-50%);
 	transition-delay: 100ms;
 }
+
 .story-image-r7 {
 	background-image: url(Resources/R3-1.JPEG);
 	transform: translateX(50%);
@@ -517,6 +523,52 @@ ul.couple-content {
 
 	.rsvp-content-h3 {
 		font-size: 3vh;
+	}
+	
+	.story-image-r3 {		
+		transform: translateX(0%);
+		filter: blur(0px);
+		transition-delay: 100ms;
+	}
+	.story-image-r4 {		
+		transform: translateX(-50%);
+		transition-delay: 200ms;
+	}
+
+	.story-image-r5 {		
+		transform: translateX(-10%);		
+		transition-delay: 100ms;
+	}
+	
+	.story-image-r6 {		
+		transform: translateX(-10%);		
+		transition-delay: 100ms;
+	}
+
+	.story-image-r7 {		
+		transform: translateX(50%);
+		transition-delay: 200ms;
+	}
+	.story-image-r8 {			
+		transform: translateX(0%);
+		filter: blur(0px);
+		transition-delay: 0ms;	
+	}
+	.story-image-r9 {		
+		transform: translateX(50%);
+		transition-delay: 200ms;	
+	}
+	.story-image-r10 {	
+		filter: blur(0px);
+	}
+
+	.story-image-r11 {		
+		transform: translateX(10%);
+		transition-delay: 100ms;
+	}
+	.story-image-r12 {		
+		transform: translateX(10%);
+		transition-delay: 100ms;
 	}
 }
 
