@@ -148,7 +148,7 @@ header h2 {
 	font-family: 'Dancing Script', cursive;
 }
 .banner-area h3 {
-	margin-top: 9vw;
+	margin-top: 12vh;
 	font-size: 3.5vw;
 }
 /*
@@ -161,14 +161,18 @@ header h2 {
 	.banner-area {
 		min-height: 600px;
 	}
+	
 	.banner-area h1 {
 		font-size: 32px;
+		height: 60px;
+		margin-top: 12vh;
 	}
 	.banner-area h3 {
 		font-size: 20px;
+		margin-top: 0vh;
 	}
 }
-/*-----------------------------------about area-------------------------------------------*/
+/*-----------------------------------couple area-------------------------------------------*/
 
 ul.couple-content {
 	width: 100%;
@@ -237,15 +241,29 @@ ul.couple-content {
 
 @media (max-width: 1000px) {
 	.section-title {
-		font-size: 29px;
+		font-size: 6.5vw;
 	}
+
+	ul.couple-content-2 {
+		margin-top: -5vh;
+	}
+
 	.couple-left, .couple-right,.couple-left2, .couple-right2 {
 		flex-basis: 100%;
 	}
+
 	.couple-content li {
 		padding: 8px;
 		-webkit-background-size: 150%;
 		background-size: 150%;
+	}
+
+	.couple-text-1 {
+		font-size: 4vw;
+	}
+
+	.couple-text-5 {
+		font-size: 5vw;
 	}
 }
 
@@ -356,6 +374,7 @@ ul.couple-content {
 	font-size: 5vh;
 	height: 20%;
 	margin-top: 10%;
+	text-align: center;
 }
 
 .story-image-r {
@@ -450,7 +469,7 @@ ul.couple-content {
 	height: 40%;
 }			
 
-@media (max-width: 1000px) and (orientation: potrait) {
+@media (max-width: 1000px) {
 
 	.story-content-outter-low {
 		z-index: 3;
@@ -473,11 +492,7 @@ ul.couple-content {
 		height: 100%;
 		border-bottom-right-radius: 0px;
 		border-bottom-left-radius: 0px;		
-	}
-
-	.story-content-3 {
-		height: 150%;
-	}
+	}	
 
 	.story-content-padding {
 		height: 20px;
@@ -491,17 +506,21 @@ ul.couple-content {
 		padding-top: 0%;
 		font-size: 1em;
 	}
-
+	
 	.mid-col-fixed {
-		height: 600px;
+		height: 800px;
 	}
 	
 	.fixed-col {
 		width: 50% !important;
 	}
+
+	.rsvp-content-h3 {
+		font-size: 3vh;
+	}
 }
 
-/*--------------------------------contatt area-----------------------------------------------*/
+/*--------------------------------contact area-----------------------------------------------*/
 .thankyou-content-area {
     width: 100%;
     justify-content: center;
@@ -590,6 +609,10 @@ ul.rsvp-content {
 	.rsvp-content li {
 		flex-basis: 100%;
 		margin-bottom: 65px;
+	}
+
+	.thankyou-p2 {
+		font-size: 5vw;
 	}
 	
 }
