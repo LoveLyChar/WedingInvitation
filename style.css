@@ -279,7 +279,7 @@ ul.couple-content {
 .story-image-3 {
 	width: 100%;
 	height: 100%;
-	background-image: url(Resource/story-3.JPEG);	
+	background-image: url(Resource/story-3.jpeg);	
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: right;	
@@ -345,7 +345,7 @@ ul.couple-content {
 .story-spacer {
 	width: 100%;
 	height: 100px;
-	background-image: url(Resource/Hearth.PNG);
+	background-image: url(Resource/Hearth.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;	
@@ -405,43 +405,43 @@ ul.couple-content {
 	transition-delay: 200ms;
 }
 .story-image-r4 {
-	background-image: url(Resource/R1-4.JPG);
+	background-image: url(Resource/R1-4.jpg);
 	transform: translateX(-50%);
 	transition-delay: 300ms;
 }
 .story-image-r5 {
-	background-image: url(Resource/R2-1.JPG);	
+	background-image: url(Resource/R2-1.jpg);	
 }
 .story-image-r6 {
-	background-image: url(Resource/R2-2.JPG);
+	background-image: url(Resource/R2-2.jpg);
 	transform: translateX(-50%);
 	transition-delay: 100ms;
 }
 .story-image-r7 {
-	background-image: url(Resource/R3-1.JPG);
+	background-image: url(Resource/R3-1.jpg);
 	transform: translateX(50%);
 	transition-delay: 300ms;
 }
 .story-image-r8 {	
-	background-image: url(Resource/R3-2.JPG);
+	background-image: url(Resource/R3-2.jpg);
 	transform: translateX(50%);
 	transition-delay: 200ms;	
 }
 .story-image-r9 {
-	background-image: url(Resource/R3-3.JPG);
+	background-image: url(Resource/R3-3.jpg);
 	transform: translateX(50%);
 	transition-delay: 100ms;	
 }
 .story-image-r10 {
-	background-image: url(Resource/R3-4.JPG);	
+	background-image: url(Resource/R3-4.jpg);	
 }
 .story-image-r11 {
-	background-image: url(Resource/R4-1.JPG);	
+	background-image: url(Resource/R4-1.jpg);	
 	transform: translateX(50%);
 	transition-delay: 100ms;
 }
 .story-image-r12 {
-	background-image: url(Resource/R4-2.JPG);	
+	background-image: url(Resource/R4-2.jpg);	
 }
 
 .story-content-p {
@@ -537,7 +537,7 @@ ul.couple-content {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-clip: content-box;
-	background-image: url(Resource/QR_1.PNG);
+	background-image: url(Resource/QR_1.png);
 }
 
 .thankyou-QR-bg-2 {
@@ -547,7 +547,7 @@ ul.couple-content {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-clip: content-box;
-	background-image: url(Resource/QR_2.PNG);
+	background-image: url(Resource/QR_2.png);
 }
 
 .thankyou-QR-bg-decor {
@@ -557,7 +557,7 @@ ul.couple-content {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-clip: content-box;
-	background-image: url(Resource/Pine.PNG);
+	background-image: url(Resource/Pine.png);
 }
 
 /*--------------------------------contact area-----------------------------------------------*/
