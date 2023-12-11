@@ -24,7 +24,7 @@ section {
 	padding: 100px 100px;
 }
 .logo {
-	font-family: 'Oswald', cursive;
+	font-family:'Dancing Script', cursive;	
 	text-transform: none;
 	font-size: 3vw;
 }
@@ -32,9 +32,12 @@ section {
 	section {
 		padding: 50px 50px;
 	}
-
-	.logo {	
-	font-size: 5vw;
+	
+	.logo {
+		font-size: 5vw;
+		position: absolute;
+		left: 4vw;
+		margin-top: 4vw;
 	}
 }
 @media (max-width: 600px) {
